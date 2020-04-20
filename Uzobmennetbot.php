@@ -3,9 +3,9 @@ date_default_timezone_set('Asia/Tashkent');
 $json = file_get_contents ('php://input');
 $data = json_decode($json,true);
 $token = '715472025:AAF9eHpHbTSdGglATVE46rpMRsPDzRjDnV4';
-$server = 'https://api.telegram.org/bot'.$token;
+$server = 'https://api.telegram.org/bot'.$1219467251:AAGEA4ICljIJ8mIYJYMi0HsbT_yUe0FDw0w;
 $date = date("d.m.Y  H:i");
-$admin = "986727421";
+$admin = "310610571";
 
 //MySQL
 	$mysqli = new mysqli("localhost","ajalbek_obmen142", "%QkI&*1T", "ajalbek_obmen142");
@@ -137,7 +137,7 @@ function clearHTML($text) {
         flush();
     }
  function bot($method, $datas = []) {
-        $url = "https://api.telegram.org/bot" . $GLOBALS['token'] . "/" . $method;
+        $url = "https://api.telegram.org/bot" . $GLOBALS['1219467251:AAGEA4ICljIJ8mIYJYMi0HsbT_yUe0FDw0w'] . "/" . $method;
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
